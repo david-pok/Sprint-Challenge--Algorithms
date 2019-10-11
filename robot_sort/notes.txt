@@ -6,6 +6,8 @@ n
 < -1 
 = 0
 
+1ST APPROACH
+____________
 set light on
 while light on, start loop
 move all the way right
@@ -33,3 +35,19 @@ light off
 
 if can't move left and compare is 1
 move right
+
+
+2ND APPROACH
+____________
+lights on
+compare, if none
+swap
+
+if can move right
+move right
+
+compare, if -1 and can move right
+swap
+
+
+
