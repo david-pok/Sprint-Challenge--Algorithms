@@ -1,0 +1,53 @@
+2 4 3 6 5 7 1
+|
+n
+
+> 1
+< -1 
+= 0
+
+1ST APPROACH
+____________
+set light on
+while light on, start loop
+move all the way right
+swap
+move all the way left
+
+compare
+
+compare, if none
+swap
+move right
+
+compare, if -1
+swap
+move right
+
+compare, if 1
+swap
+move left
+swap
+
+if can't move right and compare is none
+swap
+light off
+
+if can't move left and compare is 1
+move right
+
+
+2ND APPROACH
+____________
+lights on
+compare, if none
+swap
+
+if can move right
+move right
+
+compare, if -1 and can move right
+swap
+
+
+
